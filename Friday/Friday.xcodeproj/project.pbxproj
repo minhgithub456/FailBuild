@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF580D8C232B323400EC5964 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF580D8B232B323400EC5964 /* AppDelegate.swift */; };
+		BF580D8E232B323400EC5964 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF580D8D232B323400EC5964 /* ViewController.swift */; };
+		BF580D91232B323400EC5964 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF580D8F232B323400EC5964 /* Main.storyboard */; };
+		BF580D93232B323500EC5964 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF580D92232B323500EC5964 /* Assets.xcassets */; };
+		BF580D96232B323500EC5964 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF580D94232B323500EC5964 /* LaunchScreen.storyboard */; };
+		BF580DA1232B323500EC5964 /* FridayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF580DA0232B323500EC5964 /* FridayTests.swift */; };
+		BF580DAC232B323500EC5964 /* FridayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF580DAB232B323500EC5964 /* FridayUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF580D9D232B323500EC5964 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF580D80232B323300EC5964 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF580D87232B323400EC5964;
+			remoteInfo = Friday;
+		};
+		BF580DA8232B323500EC5964 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF580D80232B323300EC5964 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF580D87232B323400EC5964;
+			remoteInfo = Friday;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF580D88232B323400EC5964 /* Friday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Friday.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF580D8B232B323400EC5964 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF580D8D232B323400EC5964 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF580D90232B323400EC5964 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF580D92232B323500EC5964 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF580D95232B323500EC5964 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF580D97232B323500EC5964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF580D9C232B323500EC5964 /* FridayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FridayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF580DA0232B323500EC5964 /* FridayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridayTests.swift; sourceTree = "<group>"; };
+		BF580DA2232B323500EC5964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF580DA7232B323500EC5964 /* FridayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FridayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF580DAB232B323500EC5964 /* FridayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridayUITests.swift; sourceTree = "<group>"; };
+		BF580DAD232B323500EC5964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF580D85232B323400EC5964 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF580D99232B323500EC5964 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF580DA4232B323500EC5964 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF580D7F232B323300EC5964 = {
+			isa = PBXGroup;
+			children = (
+				BF580D8A232B323400EC5964 /* Friday */,
+				BF580D9F232B323500EC5964 /* FridayTests */,
+				BF580DAA232B323500EC5964 /* FridayUITests */,
+				BF580D89232B323400EC5964 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF580D89232B323400EC5964 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF580D88232B323400EC5964 /* Friday.app */,
+				BF580D9C232B323500EC5964 /* FridayTests.xctest */,
+				BF580DA7232B323500EC5964 /* FridayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF580D8A232B323400EC5964 /* Friday */ = {
+			isa = PBXGroup;
+			children = (
+				BF580D8B232B323400EC5964 /* AppDelegate.swift */,
+				BF580D8D232B323400EC5964 /* ViewController.swift */,
+				BF580D8F232B323400EC5964 /* Main.storyboard */,
+				BF580D92232B323500EC5964 /* Assets.xcassets */,
+				BF580D94232B323500EC5964 /* LaunchScreen.storyboard */,
+				BF580D97232B323500EC5964 /* Info.plist */,
+			);
+			path = Friday;
+			sourceTree = "<group>";
+		};
+		BF580D9F232B323500EC5964 /* FridayTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF580DA0232B323500EC5964 /* FridayTests.swift */,
+				BF580DA2232B323500EC5964 /* Info.plist */,
+			);
+			path = FridayTests;
+			sourceTree = "<group>";
+		};
+		BF580DAA232B323500EC5964 /* FridayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF580DAB232B323500EC5964 /* FridayUITests.swift */,
+				BF580DAD232B323500EC5964 /* Info.plist */,
+			);
+			path = FridayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF580D87232B323400EC5964 /* Friday */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF580DB0232B323500EC5964 /* Build configuration list for PBXNativeTarget "Friday" */;
+			buildPhases = (
+				BF580D84232B323400EC5964 /* Sources */,
+				BF580D85232B323400EC5964 /* Frameworks */,
+				BF580D86232B323400EC5964 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Friday;
+			productName = Friday;
+			productReference = BF580D88232B323400EC5964 /* Friday.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF580D9B232B323500EC5964 /* FridayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF580DB3232B323500EC5964 /* Build configuration list for PBXNativeTarget "FridayTests" */;
+			buildPhases = (
+				BF580D98232B323500EC5964 /* Sources */,
+				BF580D99232B323500EC5964 /* Frameworks */,
+				BF580D9A232B323500EC5964 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF580D9E232B323500EC5964 /* PBXTargetDependency */,
+			);
+			name = FridayTests;
+			productName = FridayTests;
+			productReference = BF580D9C232B323500EC5964 /* FridayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF580DA6232B323500EC5964 /* FridayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF580DB6232B323500EC5964 /* Build configuration list for PBXNativeTarget "FridayUITests" */;
+			buildPhases = (
+				BF580DA3232B323500EC5964 /* Sources */,
+				BF580DA4232B323500EC5964 /* Frameworks */,
+				BF580DA5232B323500EC5964 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF580DA9232B323500EC5964 /* PBXTargetDependency */,
+			);
+			name = FridayUITests;
+			productName = FridayUITests;
+			productReference = BF580DA7232B323500EC5964 /* FridayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF580D80232B323300EC5964 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = gmo;
+				TargetAttributes = {
+					BF580D87232B323400EC5964 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					BF580D9B232B323500EC5964 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = BF580D87232B323400EC5964;
+					};
+					BF580DA6232B323500EC5964 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = BF580D87232B323400EC5964;
+					};
+				};
+			};
+			buildConfigurationList = BF580D83232B323300EC5964 /* Build configuration list for PBXProject "Friday" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF580D7F232B323300EC5964;
+			productRefGroup = BF580D89232B323400EC5964 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF580D87232B323400EC5964 /* Friday */,
+				BF580D9B232B323500EC5964 /* FridayTests */,
+				BF580DA6232B323500EC5964 /* FridayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF580D86232B323400EC5964 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF580D96232B323500EC5964 /* LaunchScreen.storyboard in Resources */,
+				BF580D93232B323500EC5964 /* Assets.xcassets in Resources */,
+				BF580D91232B323400EC5964 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF580D9A232B323500EC5964 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF580DA5232B323500EC5964 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF580D84232B323400EC5964 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF580D8E232B323400EC5964 /* ViewController.swift in Sources */,
+				BF580D8C232B323400EC5964 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF580D98232B323500EC5964 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF580DA1232B323500EC5964 /* FridayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF580DA3232B323500EC5964 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF580DAC232B323500EC5964 /* FridayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF580D9E232B323500EC5964 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF580D87232B323400EC5964 /* Friday */;
+			targetProxy = BF580D9D232B323500EC5964 /* PBXContainerItemProxy */;
+		};
+		BF580DA9232B323500EC5964 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF580D87232B323400EC5964 /* Friday */;
+			targetProxy = BF580DA8232B323500EC5964 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF580D8F232B323400EC5964 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF580D90232B323400EC5964 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF580D94232B323500EC5964 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF580D95232B323500EC5964 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF580DAE232B323500EC5964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF580DAF232B323500EC5964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF580DB1232B323500EC5964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4VHMY5A5VD;
+				INFOPLIST_FILE = Friday/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gmo.demo.jenkinsbuild.Friday;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF580DB2232B323500EC5964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4VHMY5A5VD;
+				INFOPLIST_FILE = Friday/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gmo.demo.jenkinsbuild.Friday;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF580DB4232B323500EC5964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4VHMY5A5VD;
+				INFOPLIST_FILE = FridayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gmo.demo.jenkinsbuild.FridayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Friday.app/Friday";
+			};
+			name = Debug;
+		};
+		BF580DB5232B323500EC5964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4VHMY5A5VD;
+				INFOPLIST_FILE = FridayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gmo.demo.jenkinsbuild.FridayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Friday.app/Friday";
+			};
+			name = Release;
+		};
+		BF580DB7232B323500EC5964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4VHMY5A5VD;
+				INFOPLIST_FILE = FridayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gmo.demo.jenkinsbuild.FridayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Friday;
+			};
+			name = Debug;
+		};
+		BF580DB8232B323500EC5964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4VHMY5A5VD;
+				INFOPLIST_FILE = FridayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gmo.demo.jenkinsbuild.FridayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Friday;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF580D83232B323300EC5964 /* Build configuration list for PBXProject "Friday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF580DAE232B323500EC5964 /* Debug */,
+				BF580DAF232B323500EC5964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF580DB0232B323500EC5964 /* Build configuration list for PBXNativeTarget "Friday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF580DB1232B323500EC5964 /* Debug */,
+				BF580DB2232B323500EC5964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF580DB3232B323500EC5964 /* Build configuration list for PBXNativeTarget "FridayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF580DB4232B323500EC5964 /* Debug */,
+				BF580DB5232B323500EC5964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF580DB6232B323500EC5964 /* Build configuration list for PBXNativeTarget "FridayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF580DB7232B323500EC5964 /* Debug */,
+				BF580DB8232B323500EC5964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF580D80232B323300EC5964 /* Project object */;
+}
